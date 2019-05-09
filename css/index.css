@@ -126,7 +126,7 @@ footer .copyright {
 	text-align: center;
 	padding-top: 15px;
 }
-/* 
+
 .service-header-img {
 	margin: 15px 0;
 }
@@ -183,19 +183,8 @@ footer .copyright {
 	padding: 5px;
 }
 
-@media screen and (max-width: 800px) {
-	
 
-	.service-box {
-		flex-flow: column;
-	}
-
-	.service-item {
-		border-radius: 10px;
-	}
-}
-
-.vision-box {
+/* .vision-box {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -228,7 +217,21 @@ footer .copyright {
 
 @media( max-width: 800px ){
 
+.service-box {
+	flex-direction: column;
+	justify-content: center;
+}
 
+.service-item {
+	border-radius: 10px;
+}
+.facts-box {
+	width: 95%;
+}
+.facts-box ul {
+	margin-left: 15px;
+
+}
 body {
 	width: 100%;
 }
@@ -248,7 +251,7 @@ img {
 .header-box .item-1 {
 	margin: 30px auto;
 }
-}
+} 
 
 
 
